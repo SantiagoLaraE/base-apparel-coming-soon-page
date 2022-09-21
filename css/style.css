@@ -69,6 +69,7 @@ header {
   border: 1px solid var(--primary-color);
   color: var(--dark-color);
   outline: none;
+  background: var(--gradient-1);
 }
 .form__input::placeholder {
   color: var(--primary-color);
@@ -133,7 +134,7 @@ aside {
     min-height: 100vh;
     gap: 0 2.4rem;
     place-items: center flex-start;
-    background: url(../images/bg-pattern-desktop.svg) center/cover no-repeat;
+    background: url(../images/bg-pattern-desktop.svg) center/cover no-repeat, var(--gradient-1);
   }
   header{
     padding: 0;
@@ -157,6 +158,12 @@ aside {
   }
   .hero__img {
     display: none;
+  }
+  .form__submit {
+    padding: 1.6rem 4.4rem;
+  }
+  .form__input--error, .form__input--error:focus {
+    background: url(../images/icon-error.svg) calc(100% - 10rem) center no-repeat;
   }
   .aside__img {
     width: 100%;
