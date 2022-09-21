@@ -52,3 +52,4 @@ const validateForm = (e) => {
 };
 
 submitBtn.addEventListener("click", validateForm);
+inputForm.addEventListener('input', deleteErrors);
