@@ -73,7 +73,7 @@ header {
 .form__input::placeholder {
   color: var(--primary-color);
 }
-.form__input--error {
+.form__input--error, .form__input--error:focus {
   background: url(../images/icon-error.svg) calc(100% - 5.4rem) center no-repeat;
   padding-right: 5.4rem;
   border: 2px solid var(--error-color);
@@ -100,6 +100,15 @@ header {
 }
 .form__submit:hover {
   box-shadow: 0 0.8rem 3.2rem var(--primary-color);
+}
+.congrats__form{
+    display: inline-block;
+    font-size: 1.6rem;
+    background: var(--gradient-2);
+    padding: 1.6rem 2.4rem;
+    color: #FFF;
+    border-radius: 2.4rem;
+
 }
 /* ----- Aside ----- */
 aside {
