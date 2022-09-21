@@ -119,6 +119,7 @@ aside {
   text-align: center;
   font-size: 1.6rem;
   color: var(--primary-color);
+  padding: 0 2.4rem;
 }
 .attribution a {
   color: var(--dark-color);
