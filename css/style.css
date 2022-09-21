@@ -144,7 +144,7 @@ aside {
   }
   .hero__text{
     padding: 0;
-    max-width: 50rem;
+    max-width: 44.5rem;
   }
   .hero__title{
     font-size: 6.4rem;
@@ -171,5 +171,8 @@ aside {
     display: initial;
     grid-area: 1/2/4/3;
     background:url(../images/hero-desktop.jpg) center/cover  no-repeat;
+  }
+  .attribution {
+    padding: 0;
   }
 }
